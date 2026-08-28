@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Todd Siegrist — Real Estate Strategist · Emerald Coast, Florida</title>
+<meta name="description" content="Todd Siegrist, Real Estate Strategist with Dalton Wade Real Estate Group. Residential and commercial across Okaloosa, Walton, Santa Rosa, and Escambia counties. Call or text 850-797-0627." />
+<link rel="canonical" href="https://www.toddrocks.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Todd Siegrist — Real Estate Strategist · Emerald Coast, Florida" />
+<meta property="og:description" content="Most agents sell houses. I run transactions. Residential and commercial on the Emerald Coast. Call or text 850-797-0627." />
+<meta property="og:url" content="https://www.toddrocks.com/" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Space+Grotesk:wght@700&display=swap" />
+
+<style>
+:root{
+  --bg-base:#08090B; --bg-raised:#101216; --bg-elevated:#16191F;
+  --border-subtle:#1E222A; --border-strong:#2B313B;
+  --text-primary:#F2F5F8; --text-secondary:#A3ACB9; --text-muted:#6E7784;
+  --brand:#0099FF; --brand-hover:#38B0FF; --brand-dim:#0077CC; --brand-glow:rgba(0,153,255,.18);
+  --accent-purple:#7C3AED; --accent-green:#00D97E; --accent-yellow:#FFD230;
+
+  --font-display:"Space Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --font-ui:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --font-serif:"Newsreader",ui-serif,Georgia,"Times New Roman",serif;
+
+  --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s5:40px; --s6:48px; --s7:64px; --s8:80px;
+  --container:1140px; --gutter:20px;
+  --r-card:6px; --r-btn:4px;
+  --section-y:64px;
+}
+@media (min-width:768px){ :root{ --gutter:32px; --section-y:96px; } }
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%; overflow-x:clip}
+@media (prefers-reduced-motion:reduce){ *{animation-duration:.01ms !important; transition-duration:.01ms !important} }
+body{margin:0; background:var(--bg-base); color:var(--text-primary);
+  font:400 17px/1.65 var(--font-ui); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility; overflow-x:clip}
+@media (min-width:768px){ body{font-size:18px} }
+img{display:block; max-width:100%}
+h1,h2,h3,p,ul{margin:0}
+ul{padding:0; list-style:none}
+
+a{color:var(--brand); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:3px;
+  text-decoration-color:rgba(0,153,255,.42); transition:color .15s ease, text-decoration-color .15s ease}
+a:hover{color:var(--brand-hover); text-decoration-color:var(--brand-hover)}
+a:active{color:var(--brand-dim)}
+:where(a,button):focus-visible{outline:2px solid var(--brand); outline-offset:2px; border-radius:2px}
+
+.container{width:100%; max-width:var(--container); margin:0 auto; padding-inline:var(--gutter)}
+.dot{color:var(--text-muted); padding-inline:6px}
+
+/* ---------- TYPE ---------- */
+.eyebrow{font-size:12px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--text-secondary); margin:0 0 var(--s3)}
+.h1{font-family:var(--font-display); font-weight:700; font-size:clamp(33px,5.2vw,58px); line-height:1.08; letter-spacing:-.03em; text-wrap:balance}
+.h1 .soft{color:var(--brand); display:block}
+.h2{font-family:var(--font-display); font-weight:700; font-size:clamp(24px,3vw,34px); line-height:1.14; letter-spacing:-.025em; text-wrap:balance}
+.h3{font-family:var(--font-display); font-weight:700; font-size:20px; line-height:1.2; letter-spacing:-.02em}
+.lede{font-size:clamp(17px,1.5vw,20px); line-height:1.55; color:var(--text-secondary)}
+.body{font-size:17px; line-height:1.65; color:var(--text-secondary)}
+
+/* ---------- BUTTONS ---------- */
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; font-family:var(--font-ui);
+  font-size:15px; font-weight:500; line-height:1; padding:15px 24px; border-radius:var(--r-btn);
+  border:1px solid transparent; text-decoration:none; white-space:nowrap;
+  transition:background-color .15s ease, border-color .15s ease, color .15s ease}
+.btn--lg{font-size:16.5px; padding:17px 30px}
+.btn--primary{background:var(--brand); color:var(--bg-base); border-color:var(--brand)}
+.btn--primary:hover{background:var(--brand-hover); border-color:var(--brand-hover); color:var(--bg-base)}
+.btn--primary:active{background:var(--brand-dim); border-color:var(--brand-dim)}
+.btn--outline{background:transparent; color:var(--text-primary); border-color:var(--border-strong)}
+.btn--outline:hover{color:var(--brand-hover); border-color:var(--brand); background:rgba(0,153,255,.07)}
+.arrow{display:inline-block; font-size:.95em; transition:transform .15s ease}
+a:hover .arrow{transform:translateX(2px)}
+
+/* ---------- CHIP / STARS ---------- */
+.chip{display:inline-flex; align-items:center; gap:7px; padding:5px 12px 6px; border-radius:999px;
+  border:1px solid var(--border-strong); font-size:12.5px; font-weight:500; line-height:1; color:var(--text-secondary)}
+.chip--green{color:var(--accent-green); border-color:rgba(0,217,126,.3); background:rgba(0,217,126,.08)}
+.chip__dot{width:5px; height:5px; border-radius:999px; background:currentColor}
+.stars{color:var(--accent-yellow); font-size:15px; letter-spacing:.14em; line-height:1}
+.rating{display:flex; align-items:center; gap:10px; font-size:14px; color:var(--text-secondary); flex-wrap:wrap}
+
+/* ---------- HEADER ---------- */
+.masthead{border-bottom:1px solid var(--border-subtle); background:var(--bg-base)}
+.masthead__row{display:flex; align-items:center; justify-content:space-between; gap:var(--s3); min-height:64px; padding-block:12px}
+.brand__name{display:block; font-family:var(--font-display); font-weight:700; font-size:19px; letter-spacing:-.02em; color:var(--text-primary)}
+.brand__line{display:block; margin-top:3px; font-size:10.5px; font-weight:500; letter-spacing:.13em; text-transform:uppercase; color:var(--text-secondary)}
+.brand__line .full{display:none}
+@media (min-width:900px){ .brand__line .short{display:none} .brand__line .full{display:inline} }
+.masthead__phone{font-size:14px; color:var(--text-secondary); text-decoration:none; white-space:nowrap}
+.masthead__phone .num{color:var(--text-primary); font-weight:500}
+.masthead__phone:hover,.masthead__phone:hover .num{color:var(--brand-hover)}
+@media (max-width:559px){ .masthead__phone{display:none} }
+
+/* ---------- SHARED FIGURE ---------- */
+/* The image is absolutely positioned against the ratio box so it always fills
+   edge to edge. A percentage height against an aspect-ratio parent can round
+   down to a sub-pixel gap in some browsers — that was the sliver. */
+.figure{position:relative; overflow:hidden; background:var(--bg-elevated);
+  border:1px solid var(--border-subtle); border-radius:var(--r-card)}
+.figure img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center}
+.figure::after{content:""; position:absolute; inset:0; pointer-events:none; border-radius:inherit;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07)}
+
+/* ---------- HERO ---------- */
+.hero{position:relative; overflow:clip; padding-top:48px; padding-bottom:var(--section-y)}
+@media (min-width:768px){ .hero{padding-top:80px} }
+.hero__glow{position:absolute; top:-300px; left:-10%; right:-10%; height:820px; pointer-events:none;
+  background:radial-gradient(56% 50% at 62% 32%,rgba(0,153,255,.16) 0%,rgba(124,58,237,.09) 44%,rgba(8,9,11,0) 72%)}
+.hero__grid{position:relative; display:grid; gap:var(--s6); align-items:start}
+@media (min-width:900px){ .hero__grid{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:var(--s8)} }
+.hero__sub{margin-top:var(--s3); max-width:56ch}
+.hero__actions{margin-top:var(--s6); display:flex; flex-wrap:wrap; gap:12px}
+.hero__actions .btn{flex:1 1 auto}
+@media (min-width:560px){ .hero__actions .btn{flex:0 0 auto} }
+.hero__notice{margin-top:var(--s5); padding-left:var(--s3); border-left:1px solid var(--border-strong);
+  font-size:14.5px; line-height:1.6; color:var(--text-secondary); max-width:54ch}
+.hero__notice strong{color:var(--text-primary); font-weight:500}
+.hero__rating{margin-top:var(--s5)}
+/* Portrait sits after the copy in source order so the primary CTA stays above
+   the fold on a 375px viewport. Desktop pulls it into the right column.
+   The image is matted inside a raised panel — two nested hairlines and a
+   credential plate, so it reads as a deliberate object rather than a
+   photo floating on a dark background. */
+.portrait{position:relative; max-width:340px}
+@media (min-width:900px){ .portrait{max-width:none; margin-top:6px} }
+.portrait__glow{position:absolute; inset:-16% -12% -8%; z-index:0; pointer-events:none;
+  background:radial-gradient(58% 54% at 50% 42%,rgba(0,153,255,.17) 0%,rgba(0,153,255,0) 70%)}
+.portrait__frame{position:relative; z-index:1; background:var(--bg-raised);
+  border:1px solid var(--border-subtle); border-radius:var(--r-card); padding:12px}
+.portrait__figure{aspect-ratio:4/5; border-radius:4px}
+.portrait__plate{display:flex; align-items:baseline; justify-content:space-between; gap:10px;
+  flex-wrap:wrap; margin-top:12px; padding-top:11px; border-top:1px solid var(--border-subtle)}
+.portrait__name{font-family:var(--font-display); font-weight:700; font-size:15px;
+  letter-spacing:-.015em; color:var(--text-primary)}
+.portrait__role{font-size:10.5px; font-weight:500; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--text-secondary)}
+
+/* ---------- WORK ---------- */
+.work{background:var(--bg-raised); border-block:1px solid var(--border-subtle); padding-block:var(--section-y)}
+.work__head{max-width:64ch}
+.work__lede{margin-top:var(--s2)}
+.cards{margin-top:var(--s7); display:grid; gap:var(--s4)}
+@media (min-width:820px){ .cards{grid-template-columns:1fr 1fr; gap:var(--s5)} }
+.card{background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--r-card);
+  overflow:hidden; display:flex; flex-direction:column; transition:border-color .18s ease}
+.card:hover{border-color:var(--border-strong)}
+.card__figure{aspect-ratio:16/9; border:0; border-bottom:1px solid var(--border-subtle); border-radius:0}
+.card__body{padding:var(--s4); display:flex; flex-direction:column; gap:14px; flex:1}
+.card__meta{display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  font-size:11.5px; font-weight:500; letter-spacing:.13em; text-transform:uppercase; color:var(--text-secondary)}
+.card__body p{color:var(--text-secondary); font-size:16px; line-height:1.6}
+.card__link{margin-top:auto; padding-top:var(--s1); font-size:15.5px; font-weight:500}
+.work__foot{margin-top:var(--s6); font-family:var(--font-serif); font-size:clamp(18px,2vw,22px);
+  line-height:1.45; color:var(--text-primary); max-width:46ch}
+
+/* ---------- CONTACT ---------- */
+.contact{padding-block:var(--section-y)}
+.contact__grid{display:grid; gap:var(--s5)}
+@media (min-width:820px){ .contact__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:var(--s8); align-items:start} }
+.contact__list{display:grid; gap:var(--s3); margin-top:var(--s5)}
+@media (min-width:820px){ .contact__list{margin-top:0} }
+.contact__item{display:grid; gap:4px; padding-bottom:var(--s3); border-bottom:1px solid var(--border-subtle)}
+.contact__item:last-child{border-bottom:0; padding-bottom:0}
+.contact__label{font-size:11.5px; font-weight:500; letter-spacing:.13em; text-transform:uppercase; color:var(--text-secondary)}
+.contact__value{font-size:18px; font-weight:500}
+.contact__value a{text-decoration:none}
+.contact__value a:hover{text-decoration:underline}
+
+/* ---------- FOOTER ---------- */
+.footer{background:var(--bg-raised); border-top:1px solid var(--border-subtle);
+  padding-top:var(--s7); padding-bottom:calc(var(--s6) + 76px)}
+@media (min-width:768px){ .footer{padding-bottom:var(--s7)} }
+.footer__meta{margin-top:12px; font-size:14px; line-height:1.6; color:var(--text-secondary)}
+.footer__geo{margin-top:18px; font-size:14px; line-height:1.7; color:var(--text-secondary); max-width:60ch}
+.footer__legal{margin-top:var(--s6); padding-top:var(--s4); border-top:1px solid var(--border-subtle);
+  display:grid; gap:12px; font-size:13px; line-height:1.6; color:var(--text-secondary)}
+.footer__legal p{max-width:80ch}
+
+/* ---------- MOBILE ACTION BAR ---------- */
+.actionbar{position:fixed; left:0; right:0; bottom:0; z-index:70; display:grid; grid-template-columns:1fr 1.25fr;
+  gap:10px; padding:10px var(--gutter) calc(10px + env(safe-area-inset-bottom));
+  background:rgba(8,9,11,.92); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
+  border-top:1px solid var(--border-strong)}
+.actionbar .btn{width:100%}
+@media (min-width:768px){ .actionbar{display:none} }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="container masthead__row">
+    <div>
+      <span class="brand__name">Todd Siegrist</span>
+      <span class="brand__line">
+        <span class="full">Real Estate Strategist · Dalton Wade Real Estate Group</span>
+        <span class="short">Real Estate Strategist</span>
+      </span>
+    </div>
+    <a class="masthead__phone" href="tel:+18507970627">Call or text <span class="num">850-797-0627</span></a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__grid">
+
+        <div>
+          <p class="eyebrow">Emerald Coast, Florida</p>
+          <h1 class="h1"><span class="soft">Most agents sell houses.</span>I run transactions.</h1>
+
+          <p class="lede hero__sub">
+            Pricing you can defend in writing. A negotiation strategy that exists before the first
+            offer arrives. Marketing built for one property at a time, not a template. And an agent
+            who answers his own phone.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="tel:+18507970627">Call 850-797-0627</a>
+            <a class="btn btn--outline btn--lg" href="sms:+18507970627">Text me</a>
+            <a class="btn btn--outline btn--lg" href="mailto:todd@toddrocks.com?subject=Inquiry%20from%20toddrocks.com">Email</a>
+          </div>
+
+          <p class="hero__notice">
+            <strong>The full site is being rebuilt this week.</strong> Everything else is running
+            normally — I'm listing, showing, and negotiating today the same as any other week.
+            Texts come to my phone, not an assistant's.
+          </p>
+
+          <div class="rating hero__rating">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>65+ client reviews</span>
+            <span class="dot" aria-hidden="true">·</span>
+            <span>Residential and commercial</span>
+          </div>
+        </div>
+
+        <div class="portrait">
+          <div class="portrait__glow" aria-hidden="true"></div>
+          <div class="portrait__frame">
+            <!-- SWAP POINT: replace the src below with your own headshot file,
+                 e.g. src="assets/todd-headshot.jpg" -->
+            <div class="figure portrait__figure">
+              <img src="https://www.577brookmeade.com/assets/Todd_Siegrist_Headshot_2026.jpg"
+                   alt="Todd Siegrist, Real Estate Strategist on Florida's Emerald Coast"
+                   fetchpriority="high" decoding="async" />
+            </div>
+            <div class="portrait__plate">
+              <span class="portrait__name">Todd Siegrist</span>
+              <span class="portrait__role">Real Estate Strategist</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="container">
+      <div class="work__head">
+        <p class="eyebrow">What that looks like</p>
+        <h2 class="h2">Two properties I'm marketing right now.</h2>
+        <p class="body work__lede">
+          Each one got its own domain and its own website, built around that specific property.
+          Real photography, real drone work, and the pricing evidence published in the open where
+          buyers can check it. If you're wondering what your listing would look like, these are the answer.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+          <div class="figure card__figure">
+            <img src="https://www.thedockyouvebeenwaitingfor.com/assets/hero-aerial-sunset.jpg"
+                 alt="Aerial view of the Freeport waterfront property — home, lawn, and a 120-foot private dock running out into Choctawhatchee Bay"
+                 loading="lazy" decoding="async" />
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="chip chip--green"><span class="chip__dot" aria-hidden="true"></span>Active listing</span>
+              <span>Residential · Freeport, FL</span>
+            </div>
+            <h3 class="h3">The Dock You've Been Waiting For</h3>
+            <p>
+              Roughly 130 feet of south-facing Choctawhatchee Bay frontage with a 120-foot private
+              dock, boat lift, and sundeck. Custom domain, aerial and lifestyle photography, and a
+              published comparable-sales analysis making the case for the price.
+            </p>
+            <p class="card__link">
+              <a href="https://www.thedockyouvebeenwaitingfor.com" target="_blank" rel="noopener">
+                thedockyouvebeenwaitingfor.com <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="figure card__figure">
+            <img src="https://www.577brookmeade.com/assets/hero-drone-aerial.jpg"
+                 alt="Aerial view of the 577 Brookmeade medical office building in Crestview, with North Okaloosa Medical Center across the street"
+                 loading="lazy" decoding="async" />
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="chip chip--green"><span class="chip__dot" aria-hidden="true"></span>Active listing</span>
+              <span>Commercial · Crestview, FL</span>
+            </div>
+            <h3 class="h3">577 Brookmeade Drive</h3>
+            <p>
+              A 10,200 SF medical building directly across from the hospital. Lease structure,
+              rent-roll math, submarket data, and three modeled buyer paths — published openly
+              instead of gated behind an inquiry form. Co-listed with NBI Properties.
+            </p>
+            <p class="card__link">
+              <a href="https://www.577brookmeade.com" target="_blank" rel="noopener">
+                577brookmeade.com <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="work__foot">Same standard both times. The property changes; the work doesn't.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="h2">Call, text, or send a note.</h2>
+          <p class="body work__lede">
+            If you're thinking about selling, buying, or you just want a second read on a property
+            you already own — that's a conversation worth having, and it costs you nothing.
+          </p>
+        </div>
+
+        <div class="contact__list">
+          <div class="contact__item">
+            <span class="contact__label">Call or text</span>
+            <span class="contact__value"><a href="tel:+18507970627">850-797-0627</a></span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Email</span>
+            <span class="contact__value"><a href="mailto:todd@toddrocks.com?subject=Inquiry%20from%20toddrocks.com">todd@toddrocks.com</a></span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__label">Brokerage</span>
+            <span class="contact__value">Dalton Wade Real Estate Group</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="brand__name">Todd Siegrist</span>
+    <p class="footer__meta">
+      Real Estate Strategist · Dalton Wade Real Estate Group<br />
+      Licensed in Florida · SL3398226
+    </p>
+    <p class="footer__geo">
+      Serving Okaloosa, Walton, Santa Rosa, and Escambia counties — including Fort Walton Beach,
+      Destin, 30A, Crestview, Niceville, Navarre, Gulf Breeze, Pensacola, and Pensacola Beach.
+      Residential and commercial.
+    </p>
+    <p class="footer__meta">
+      <a href="tel:+18507970627">850-797-0627</a><span class="dot" aria-hidden="true">·</span><a href="mailto:todd@toddrocks.com">todd@toddrocks.com</a>
+    </p>
+
+    <div class="footer__legal">
+      <p>Equal Housing Opportunity. All information is deemed reliable but not guaranteed and should be independently verified. Nothing on this site is legal, tax, or insurance advice.</p>
+      <p>&copy; 2026 Todd Siegrist · Dalton Wade Real Estate Group. A new site is landing shortly.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="actionbar">
+  <a class="btn btn--outline" href="sms:+18507970627">Text</a>
+  <a class="btn btn--primary" href="tel:+18507970627">Call Todd</a>
+</div>
+
+</body>
+</html>
